@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840530AF2D62F23900E1B30A /* SlotBookingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840530AE2D62F23900E1B30A /* SlotBookingAppApp.swift */; };
+		840530B12D62F23900E1B30A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840530B02D62F23900E1B30A /* ContentView.swift */; };
+		840530B32D62F23C00E1B30A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840530B22D62F23C00E1B30A /* Assets.xcassets */; };
+		840530B62D62F23C00E1B30A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840530B52D62F23C00E1B30A /* Preview Assets.xcassets */; };
+		840530C02D62F23C00E1B30A /* SlotBookingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840530BF2D62F23C00E1B30A /* SlotBookingAppTests.swift */; };
+		840530CA2D62F23C00E1B30A /* SlotBookingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840530C92D62F23C00E1B30A /* SlotBookingAppUITests.swift */; };
+		840530CC2D62F23C00E1B30A /* SlotBookingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840530CB2D62F23C00E1B30A /* SlotBookingAppUITestsLaunchTests.swift */; };
+		840530D92D62F2A700E1B30A /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840530D82D62F2A700E1B30A /* RegisterView.swift */; };
+		840530DC2D62F30E00E1B30A /* SlotBookingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 840530DA2D62F30E00E1B30A /* SlotBookingApp.xcdatamodeld */; };
+		840530DE2D62F41400E1B30A /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840530DD2D62F41400E1B30A /* PersistenceController.swift */; };
+		840530E02D62F7AD00E1B30A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840530DF2D62F7AD00E1B30A /* LoginView.swift */; };
+		840530E22D62F89100E1B30A /* TechTrackDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840530E12D62F89100E1B30A /* TechTrackDashboardView.swift */; };
+		840530E42D62F95F00E1B30A /* SlotListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840530E32D62F95F00E1B30A /* SlotListView.swift */; };
+		840530E62D62F9E500E1B30A /* AddSlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840530E52D62F9E500E1B30A /* AddSlotView.swift */; };
+		840530E82D62FAA000E1B30A /* EditSlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840530E72D62FAA000E1B30A /* EditSlotView.swift */; };
+		840530F02D62FC7B00E1B30A /* SlotManagementDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840530EF2D62FC7B00E1B30A /* SlotManagementDashboardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		840530BC2D62F23C00E1B30A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840530A32D62F23900E1B30A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840530AA2D62F23900E1B30A;
+			remoteInfo = SlotBookingApp;
+		};
+		840530C62D62F23C00E1B30A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840530A32D62F23900E1B30A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840530AA2D62F23900E1B30A;
+			remoteInfo = SlotBookingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		840530AB2D62F23900E1B30A /* SlotBookingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotBookingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840530AE2D62F23900E1B30A /* SlotBookingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotBookingAppApp.swift; sourceTree = "<group>"; };
+		840530B02D62F23900E1B30A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		840530B22D62F23C00E1B30A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		840530B52D62F23C00E1B30A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		840530BB2D62F23C00E1B30A /* SlotBookingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlotBookingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840530BF2D62F23C00E1B30A /* SlotBookingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotBookingAppTests.swift; sourceTree = "<group>"; };
+		840530C52D62F23C00E1B30A /* SlotBookingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlotBookingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840530C92D62F23C00E1B30A /* SlotBookingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotBookingAppUITests.swift; sourceTree = "<group>"; };
+		840530CB2D62F23C00E1B30A /* SlotBookingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotBookingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		840530D82D62F2A700E1B30A /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		840530DB2D62F30E00E1B30A /* SlotBookingApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SlotBookingApp.xcdatamodel; sourceTree = "<group>"; };
+		840530DD2D62F41400E1B30A /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		840530DF2D62F7AD00E1B30A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		840530E12D62F89100E1B30A /* TechTrackDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechTrackDashboardView.swift; sourceTree = "<group>"; };
+		840530E32D62F95F00E1B30A /* SlotListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotListView.swift; sourceTree = "<group>"; };
+		840530E52D62F9E500E1B30A /* AddSlotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSlotView.swift; sourceTree = "<group>"; };
+		840530E72D62FAA000E1B30A /* EditSlotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSlotView.swift; sourceTree = "<group>"; };
+		840530EF2D62FC7B00E1B30A /* SlotManagementDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotManagementDashboardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840530A82D62F23900E1B30A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840530B82D62F23C00E1B30A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840530C22D62F23C00E1B30A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840530A22D62F23900E1B30A = {
+			isa = PBXGroup;
+			children = (
+				840530AD2D62F23900E1B30A /* SlotBookingApp */,
+				840530BE2D62F23C00E1B30A /* SlotBookingAppTests */,
+				840530C82D62F23C00E1B30A /* SlotBookingAppUITests */,
+				840530AC2D62F23900E1B30A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840530AC2D62F23900E1B30A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840530AB2D62F23900E1B30A /* SlotBookingApp.app */,
+				840530BB2D62F23C00E1B30A /* SlotBookingAppTests.xctest */,
+				840530C52D62F23C00E1B30A /* SlotBookingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840530AD2D62F23900E1B30A /* SlotBookingApp */ = {
+			isa = PBXGroup;
+			children = (
+				840530AE2D62F23900E1B30A /* SlotBookingAppApp.swift */,
+				840530B02D62F23900E1B30A /* ContentView.swift */,
+				840530EF2D62FC7B00E1B30A /* SlotManagementDashboardView.swift */,
+				840530E72D62FAA000E1B30A /* EditSlotView.swift */,
+				840530E52D62F9E500E1B30A /* AddSlotView.swift */,
+				840530E32D62F95F00E1B30A /* SlotListView.swift */,
+				840530E12D62F89100E1B30A /* TechTrackDashboardView.swift */,
+				840530DF2D62F7AD00E1B30A /* LoginView.swift */,
+				840530DD2D62F41400E1B30A /* PersistenceController.swift */,
+				840530D82D62F2A700E1B30A /* RegisterView.swift */,
+				840530B22D62F23C00E1B30A /* Assets.xcassets */,
+				840530B42D62F23C00E1B30A /* Preview Content */,
+				840530DA2D62F30E00E1B30A /* SlotBookingApp.xcdatamodeld */,
+			);
+			path = SlotBookingApp;
+			sourceTree = "<group>";
+		};
+		840530B42D62F23C00E1B30A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				840530B52D62F23C00E1B30A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		840530BE2D62F23C00E1B30A /* SlotBookingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				840530BF2D62F23C00E1B30A /* SlotBookingAppTests.swift */,
+			);
+			path = SlotBookingAppTests;
+			sourceTree = "<group>";
+		};
+		840530C82D62F23C00E1B30A /* SlotBookingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				840530C92D62F23C00E1B30A /* SlotBookingAppUITests.swift */,
+				840530CB2D62F23C00E1B30A /* SlotBookingAppUITestsLaunchTests.swift */,
+			);
+			path = SlotBookingAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840530AA2D62F23900E1B30A /* SlotBookingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840530CF2D62F23C00E1B30A /* Build configuration list for PBXNativeTarget "SlotBookingApp" */;
+			buildPhases = (
+				840530A72D62F23900E1B30A /* Sources */,
+				840530A82D62F23900E1B30A /* Frameworks */,
+				840530A92D62F23900E1B30A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlotBookingApp;
+			productName = SlotBookingApp;
+			productReference = 840530AB2D62F23900E1B30A /* SlotBookingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		840530BA2D62F23C00E1B30A /* SlotBookingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840530D22D62F23C00E1B30A /* Build configuration list for PBXNativeTarget "SlotBookingAppTests" */;
+			buildPhases = (
+				840530B72D62F23C00E1B30A /* Sources */,
+				840530B82D62F23C00E1B30A /* Frameworks */,
+				840530B92D62F23C00E1B30A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840530BD2D62F23C00E1B30A /* PBXTargetDependency */,
+			);
+			name = SlotBookingAppTests;
+			productName = SlotBookingAppTests;
+			productReference = 840530BB2D62F23C00E1B30A /* SlotBookingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		840530C42D62F23C00E1B30A /* SlotBookingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840530D52D62F23C00E1B30A /* Build configuration list for PBXNativeTarget "SlotBookingAppUITests" */;
+			buildPhases = (
+				840530C12D62F23C00E1B30A /* Sources */,
+				840530C22D62F23C00E1B30A /* Frameworks */,
+				840530C32D62F23C00E1B30A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840530C72D62F23C00E1B30A /* PBXTargetDependency */,
+			);
+			name = SlotBookingAppUITests;
+			productName = SlotBookingAppUITests;
+			productReference = 840530C52D62F23C00E1B30A /* SlotBookingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840530A32D62F23900E1B30A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					840530AA2D62F23900E1B30A = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					840530BA2D62F23C00E1B30A = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 840530AA2D62F23900E1B30A;
+					};
+					840530C42D62F23C00E1B30A = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 840530AA2D62F23900E1B30A;
+					};
+				};
+			};
+			buildConfigurationList = 840530A62D62F23900E1B30A /* Build configuration list for PBXProject "SlotBookingApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840530A22D62F23900E1B30A;
+			productRefGroup = 840530AC2D62F23900E1B30A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840530AA2D62F23900E1B30A /* SlotBookingApp */,
+				840530BA2D62F23C00E1B30A /* SlotBookingAppTests */,
+				840530C42D62F23C00E1B30A /* SlotBookingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840530A92D62F23900E1B30A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840530B62D62F23C00E1B30A /* Preview Assets.xcassets in Resources */,
+				840530B32D62F23C00E1B30A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840530B92D62F23C00E1B30A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840530C32D62F23C00E1B30A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840530A72D62F23900E1B30A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840530E02D62F7AD00E1B30A /* LoginView.swift in Sources */,
+				840530D92D62F2A700E1B30A /* RegisterView.swift in Sources */,
+				840530E22D62F89100E1B30A /* TechTrackDashboardView.swift in Sources */,
+				840530B12D62F23900E1B30A /* ContentView.swift in Sources */,
+				840530AF2D62F23900E1B30A /* SlotBookingAppApp.swift in Sources */,
+				840530DC2D62F30E00E1B30A /* SlotBookingApp.xcdatamodeld in Sources */,
+				840530E62D62F9E500E1B30A /* AddSlotView.swift in Sources */,
+				840530E42D62F95F00E1B30A /* SlotListView.swift in Sources */,
+				840530E82D62FAA000E1B30A /* EditSlotView.swift in Sources */,
+				840530F02D62FC7B00E1B30A /* SlotManagementDashboardView.swift in Sources */,
+				840530DE2D62F41400E1B30A /* PersistenceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840530B72D62F23C00E1B30A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840530C02D62F23C00E1B30A /* SlotBookingAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840530C12D62F23C00E1B30A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840530CC2D62F23C00E1B30A /* SlotBookingAppUITestsLaunchTests.swift in Sources */,
+				840530CA2D62F23C00E1B30A /* SlotBookingAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		840530BD2D62F23C00E1B30A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840530AA2D62F23900E1B30A /* SlotBookingApp */;
+			targetProxy = 840530BC2D62F23C00E1B30A /* PBXContainerItemProxy */;
+		};
+		840530C72D62F23C00E1B30A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840530AA2D62F23900E1B30A /* SlotBookingApp */;
+			targetProxy = 840530C62D62F23C00E1B30A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		840530CD2D62F23C00E1B30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		840530CE2D62F23C00E1B30A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840530D02D62F23C00E1B30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SlotBookingApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.SlotBookingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		840530D12D62F23C00E1B30A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SlotBookingApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.SlotBookingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		840530D32D62F23C00E1B30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.SlotBookingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlotBookingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SlotBookingApp";
+			};
+			name = Debug;
+		};
+		840530D42D62F23C00E1B30A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.SlotBookingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlotBookingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SlotBookingApp";
+			};
+			name = Release;
+		};
+		840530D62D62F23C00E1B30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.SlotBookingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SlotBookingApp;
+			};
+			name = Debug;
+		};
+		840530D72D62F23C00E1B30A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.SlotBookingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SlotBookingApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840530A62D62F23900E1B30A /* Build configuration list for PBXProject "SlotBookingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840530CD2D62F23C00E1B30A /* Debug */,
+				840530CE2D62F23C00E1B30A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840530CF2D62F23C00E1B30A /* Build configuration list for PBXNativeTarget "SlotBookingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840530D02D62F23C00E1B30A /* Debug */,
+				840530D12D62F23C00E1B30A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840530D22D62F23C00E1B30A /* Build configuration list for PBXNativeTarget "SlotBookingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840530D32D62F23C00E1B30A /* Debug */,
+				840530D42D62F23C00E1B30A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840530D52D62F23C00E1B30A /* Build configuration list for PBXNativeTarget "SlotBookingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840530D62D62F23C00E1B30A /* Debug */,
+				840530D72D62F23C00E1B30A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		840530DA2D62F30E00E1B30A /* SlotBookingApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				840530DB2D62F30E00E1B30A /* SlotBookingApp.xcdatamodel */,
+			);
+			currentVersion = 840530DB2D62F30E00E1B30A /* SlotBookingApp.xcdatamodel */;
+			path = SlotBookingApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 840530A32D62F23900E1B30A /* Project object */;
+}
