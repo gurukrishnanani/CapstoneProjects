@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LoginActivity"
+    tools:ignore="ExtraText"
+    android:background="#FF9800">
+
+    <!-- LinearLayout with Gradient Background -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/gradient_bg"
+        android:padding="24dp"
+        android:gravity="center"> <!-- Center the content -->
+
+        <!-- Email EditText -->
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Email"
+            android:padding="12dp"
+            android:textColor="#333333"
+            android:layout_marginBottom="16dp"
+            android:textColorHint="#4CAF50"
+            android:background="@android:drawable/edit_text"
+            tools:ignore="MissingConstraints" />
+
+        <!-- Password EditText -->
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textColor="#333333"
+            android:layout_marginBottom="16dp"
+            android:textColorHint="#4CAF50"
+            android:background="@android:drawable/edit_text"
+            tools:ignore="MissingConstraints" />
+
+        <!-- Login Button with Improved Contrast -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="#FFFFFF"
+            android:background="#1976D2" /><!-- Adjusted contrast for better accessibility -->
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"
+        android:layout_gravity="center"
+        tools:ignore="MissingConstraints" /> <!-- Correctly closed the button tag -->
+
+        <!-- Signup Text -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New User Signup Here"
+            android:textColor="#1976D2" /><!-- Ensure a good contrast with the background -->
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        tools:ignore="MissingConstraints" />
+
+        <!-- Register Button with Improved Contrast -->
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="#FFFFFF"
+            android:background="#1B5E20" /><!-- Adjusted contrast for better accessibility -->
+        android:padding="12dp"
+        android:layout_gravity="center"
+        tools:ignore="MissingConstraints" /> <!-- Correctly closed the button tag -->
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
